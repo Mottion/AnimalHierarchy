@@ -1,0 +1,27 @@
+{
+  "name": "cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/src/main",
+  "scripts": {
+    "build": "nest build",
+    "start:dev": "nest start --watch",
+    "start:prod": "node ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@nestjs/common": "^10.4.1",
+    "@nestjs/core": "^10.4.1",
+    "@nestjs/platform-express": "^10.4.1",
+    "reflect-metadata": "^0.1.14"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^10.4.4",
+    "@nestjs/schematics": "^10.1.4",
+    "@types/bun": "^1.1.8",
+    "@types/node": "^22.5.0",
+    "typescript": "^5.5.4"
+  }
+}
